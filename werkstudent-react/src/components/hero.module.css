@@ -1,0 +1,14 @@
+.hero {
+  padding: 48px 0;
+}
+
+.headline {
+  font-family: var(--recklessNeue);
+  font-style: italic;
+  font-weight: 700;
+  color: var(--text-headline);
+  margin-left: 44px;
+
+  font-size: 94px;
+  line-height: 100px;
+}

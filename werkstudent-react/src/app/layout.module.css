@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.container {
+  margin: 0 auto;
+  border-bottom: 1px solid #f3f5f6;
+  max-width: 1040px;
+  width: calc(100% - 240px);
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.brand .logo {
+  max-width: 140px;
+  object-fit: contain;
+  height: fit-content;
+}

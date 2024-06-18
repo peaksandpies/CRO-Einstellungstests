@@ -1,0 +1,83 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* css vars */
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+
+  --green: #aaffc4;
+  --pink: #fff2f2;
+  --peach: #ffd2ba;
+  --blue: #e7efff;
+  --grey: #e8ebee;
+  --background: #f8f9fa;
+  --error: #ed174a;
+
+  --text-headline: #152e4a;
+  --text-subline: #d0d5db;
+  --text-paragraph: #71849d;
+  --input-blue: #7bb9ff;
+
+  --pp-green: #d3ff6f;
+  --pp-mint: #9affdb;
+  --pp-light-blue: #5bceff;
+  --pp-dark-blue: rgba(54, 25, 230, 0.51);
+
+  --linear-green: linear-gradient(
+    264.27deg,
+    var(--pp-green) 0%,
+    var(--pp-mint) 95.8%
+  );
+  --linear-purplepeach: linear-gradient(
+    270deg,
+    var(--peach) 0%,
+    rgba(39, 34, 251, 0.64) 100%
+  );
+  --angular-purplepeach: conic-gradient(
+    from 270deg at 50% 50%,
+    var(--peach) 0deg,
+    var(--pp-dark-blue) 360deg
+  );
+  --linear-pp: linear-gradient(
+    270deg,
+    var(--pp-light-blue) 0%,
+    var(--pp-dark-blue) 100%
+  );
+  --angular-pp: conic-gradient(
+    from 270deg at 50% 50%,
+    var(--pp-light-blue) 0deg,
+    var(--pp-dark-blue) 360deg
+  );
+}
