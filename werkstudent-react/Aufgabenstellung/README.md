@@ -1,7 +1,5 @@
 # Aufgabgenstellung
 
-# Aufgabgenstellung
-
 Hi,
 
 Deine Aufgabe ist anhand deines Github-Profils zu prüfen, ob einer unserer Jobs für dich in Frage kommt. Dafür haben unsere Designer ein kleines Design vorbereitet. 🙂
@@ -15,3 +13,5 @@ Deine Aufgabe ist anhand deines Github-Profils zu prüfen, ob einer unserer Jobs
 > Hinweis: Es sollte kein Token notwendig sein.
 
 4. Als Letztes müssen alle Jobs die wir aktuell zu vergeben haben aufgeführt werden uns sollten für deinen Namen bei Github einen "Perfect Match" erzeugen. Du findest die Jobs in der `page.tsx`.
+
+> Form follows functions.
